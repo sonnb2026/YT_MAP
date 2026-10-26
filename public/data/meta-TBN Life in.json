@@ -1,0 +1,20 @@
+{
+  "list": "TBN Life in",
+  "lastUpdated": "2026-10-26T06:58:18.766Z",
+  "channelCount": 59,
+  "videoCount": 3666,
+  "quotaUnitsUsed": 1171,
+  "apiKeysConfigured": 3,
+  "vph": {
+    "minIntervalHours": 6,
+    "targetHours": 24,
+    "fallbackMaxHours": 48,
+    "youngVideoHours": 48,
+    "maxSnapshots": 8
+  },
+  "vphVersion": 2,
+  "liveCount": 16,
+  "allKeysExhausted": false,
+  "errors": [],
+  "replyErrors": []
+}
