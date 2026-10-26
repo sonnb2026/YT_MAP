@@ -1,0 +1,20 @@
+{
+  "list": "PO",
+  "lastUpdated": "2026-10-26T08:30:01.877Z",
+  "channelCount": 1,
+  "videoCount": 651,
+  "quotaUnitsUsed": 25,
+  "apiKeysConfigured": 2,
+  "vph": {
+    "minIntervalHours": 6,
+    "targetHours": 24,
+    "fallbackMaxHours": 48,
+    "youngVideoHours": 48,
+    "maxSnapshots": 8
+  },
+  "vphVersion": 2,
+  "liveCount": 0,
+  "allKeysExhausted": false,
+  "errors": [],
+  "replyErrors": []
+}
