@@ -1,9 +1,9 @@
 {
-  "list": "PO",
-  "lastUpdated": "2026-10-26T08:30:01.877Z",
+  "list": "FRANCE",
+  "lastUpdated": "2026-10-26T09:24:49.803Z",
   "channelCount": 1,
   "videoCount": 651,
-  "quotaUnitsUsed": 25,
+  "quotaUnitsUsed": 23,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -14,7 +14,63 @@
   },
   "vphVersion": 2,
   "liveCount": 0,
-  "allKeysExhausted": false,
+  "allKeysExhausted": true,
   "errors": [],
-  "replyErrors": []
+  "replyErrors": [
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "Ugy-zDmAZZ9VcQtMXK14AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "UgwDS9Wsi0-3Z_BlUd14AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "UgyPK5hUuEoO0s26DgN4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "UgxkrklTZ6HSIQs6Pjx4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "UgyB5mEeCipoy7iRoHV4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "WMJhHUWeG40",
+      "commentId": "Ugxz1-3euTgPk0cnJ1R4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "_XT84w7gumw",
+      "commentId": "UgxwNjB1-48X900WpGN4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "_XT84w7gumw",
+      "commentId": "UgwvQTa-YzgMDwk1Dm14AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "_XT84w7gumw",
+      "commentId": "UgyQX7mpVOLDKA153xR4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "_XT84w7gumw",
+      "commentId": "Ugxu1EGwNzfVIBrce2p4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    },
+    {
+      "videoId": "_XT84w7gumw",
+      "commentId": "UgyYaSTyrkrH7wSQWXx4AaABAg",
+      "error": "comments failed: quotaExceeded"
+    }
+  ]
 }
