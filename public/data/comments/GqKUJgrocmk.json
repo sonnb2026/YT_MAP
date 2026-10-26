@@ -1,0 +1,35 @@
+{
+  "videoId": "GqKUJgrocmk",
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugx1ez2sf1_GgFGnyCp4AaABAg",
+      "author": "@tysoncung",
+      "authorImage": "https://yt3.ggpht.com/CnZngvJ9ZLLbVUGBH1qaaEi6Xvtz85PDp6s4s0EDdA9PHasqt36Fol7oAi84TLc7xfHrqv0x=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Been following this closely. What do you make of it?",
+      "likeCount": 0,
+      "publishedAt": "2026-09-05T01:00:09Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxkCXXWJQlf_fCQD4F4AaABAg",
+      "author": "@tysoncung",
+      "authorImage": "https://yt3.ggpht.com/CnZngvJ9ZLLbVUGBH1qaaEi6Xvtz85PDp6s4s0EDdA9PHasqt36Fol7oAi84TLc7xfHrqv0x=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Anyone try on Mac Studio 512GB RAM? Please let me know.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-09T08:30:19Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxkCXXWJQlf_fCQD4F4AaABAg.A_HWieF9yuTA_JRso78s5E",
+          "author": "@tysoncung",
+          "authorImage": "https://yt3.ggpht.com/CnZngvJ9ZLLbVUGBH1qaaEi6Xvtz85PDp6s4s0EDdA9PHasqt36Fol7oAi84TLc7xfHrqv0x=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Short answer: no, and it is not close. K3 is 2.81T parameters, MoE with 16 of 896 experts active. Even at 4-bit that is roughly 1.4TB of weights, and every expert has to sit in memory whether it fires or not. A 512GB Studio gets you about a third of the way.\n\nWorth knowing: the only tag on Ollama right now is kimi-k3:cloud, so pulling it does not run it on your machine at all, it routes to Moonshot's servers. Local K3 is not a thing on any Mac yet.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T02:26:29Z"
+        }
+      ]
+    }
+  ]
+}
