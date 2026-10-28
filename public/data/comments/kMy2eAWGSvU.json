@@ -3,24 +3,23 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgyQ2DLF1CzHj1GTK-R4AaABAg",
-      "author": "@vinrr4789",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m6ftf3A4p4-f8jme3a6dWNqATc8Ksu8z7zkuQ4Yf_Tzaa8=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Por qué todos ponen los mismos títulos?",
-      "likeCount": 0,
-      "publishedAt": "2026-10-25T23:07:58Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgxBuWFH2y17rHzP0T94AaABAg",
       "author": "@ronaldocampo-o1h",
       "authorImage": "https://yt3.ggpht.com/ZVao5mD5vrmWInDqt-pD12w5BBq6ZmPwm7n9Urnn3JIHhVQb_k4YVoRpE_yID0125n_8Pa5i6Q=s48-c-k-c0x00ffffff-no-rj",
       "text": "Excelente video mucho aprendizaje",
       "likeCount": 0,
       "publishedAt": "2026-10-25T17:26:27Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxBuWFH2y17rHzP0T94AaABAg.AcOkHnJIubQAcTpIfquTVT",
+          "author": "@GeografiaconGeoff",
+          "authorImage": "https://yt3.ggpht.com/wJHtyMJAZeqydOnyAEQGWmLLZ0maDSzJO3YD_Gf9KMcZRvfI9pqAA_8NPLK5XbfDn4B04HuJHA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Muchas gracias por verlo!!",
+          "likeCount": 0,
+          "publishedAt": "2026-10-27T16:46:28Z"
+        }
+      ]
     },
     {
       "id": "UgyvqtJ1XKY8ae5iWWd4AaABAg",
@@ -168,16 +167,6 @@
       ]
     },
     {
-      "id": "UgzWlzSqOR6X5v1kkDd4AaABAg",
-      "author": "@juncruz6266",
-      "authorImage": "https://yt3.ggpht.com/nz-m0_m-VmuypbcpfQgWxzJBjINVWciqAfkMoLPeJP_sAe7isBwc58Y5Eyp-B0YVIIkUzQui=s48-c-k-c0x00ffffff-no-rj",
-      "text": "free tibet!",
-      "likeCount": 8,
-      "publishedAt": "2026-10-14T23:39:15Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgwfC3t3kI-wyWU4CQR4AaABAg",
       "author": "@dw07aw",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nF5rICidBJGpfWqovJT7bd4Q-UzGzfaREGFyhfpYCM5Q=s48-c-k-c0x00ffffff-no-rj",
@@ -201,7 +190,7 @@
       "author": "@OSCARTORRES-lh1hi",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m84Tr7ay37v6dRSv6xcS-JQMCjxUC9FPCO2wyXvnLYyTI=s48-c-k-c0x00ffffff-no-rj",
       "text": "Dicen que los mejores huevos son los del Tíbet, según los Lamas",
-      "likeCount": 6,
+      "likeCount": 7,
       "publishedAt": "2026-10-14T22:29:54Z",
       "replyCount": 1,
       "replies": [

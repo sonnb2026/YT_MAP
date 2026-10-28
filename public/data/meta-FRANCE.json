@@ -1,9 +1,9 @@
 {
   "list": "FRANCE",
-  "lastUpdated": "2026-10-27T01:51:10.845Z",
+  "lastUpdated": "2026-10-28T02:03:25.600Z",
   "channelCount": 1,
   "videoCount": 651,
-  "quotaUnitsUsed": 46,
+  "quotaUnitsUsed": 90,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -14,87 +14,7 @@
   },
   "vphVersion": 2,
   "liveCount": 0,
-  "allKeysExhausted": true,
-  "errors": [
-    {
-      "videoId": "1K4xz2-jP8s",
-      "error": "commentThreads failed: quotaExceeded"
-    },
-    {
-      "videoId": "4iRpa6BylGY",
-      "error": "commentThreads failed: quotaExceeded"
-    }
-  ],
-  "replyErrors": [
-    {
-      "videoId": "71DYaqULqtE",
-      "commentId": "UgxvRpoNIWbaA1sCv9J4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "Ugw7UgoWNzSYe7w8bYZ4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "UgykzQ33zHdltf3zmld4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "Ugxpn8uZOgYR3EyXAq94AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "UgwXLNXEmkj9o4Ihax94AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "UgyPK5hUuEoO0s26DgN4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "UgxkrklTZ6HSIQs6Pjx4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "WMJhHUWeG40",
-      "commentId": "UgyB5mEeCipoy7iRoHV4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "5pPlzJFV_vQ",
-      "commentId": "UgwwF9G5yiEYMnYjruh4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "SjszPwM6dRk",
-      "commentId": "UgzLpvRHImvryE0xW8B4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "SjszPwM6dRk",
-      "commentId": "UgwbRB-UufRov1Cg9Kt4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "SjszPwM6dRk",
-      "commentId": "UgxbRrMrd4JwntP-Sgd4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "SjszPwM6dRk",
-      "commentId": "UgydX2MVOtFi8pqiuLp4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    },
-    {
-      "videoId": "SjszPwM6dRk",
-      "commentId": "UgwaL_uQTKaSdG882fR4AaABAg",
-      "error": "comments failed: quotaExceeded"
-    }
-  ]
+  "allKeysExhausted": false,
+  "errors": [],
+  "replyErrors": []
 }

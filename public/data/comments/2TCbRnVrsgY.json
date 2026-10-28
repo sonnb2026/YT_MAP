@@ -1,5 +1,35 @@
 {
   "videoId": "2TCbRnVrsgY",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgzEJ6yINUv-aZP1rKp4AaABAg",
+      "author": "@JoseAlicea-w8p",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nbnIwyYsF5KGzS2pWd-Bbv2zgtWKXIXYtKtnh9Q669BzQAGM9gxLELfbqgp3aEheu7BQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Ya no se puede vivir literal",
+      "likeCount": 0,
+      "publishedAt": "2026-10-27T02:43:32Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxJb-K8rUteP1p18nd4AaABAg",
+      "author": "@carmelofebles3871",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lE_5PpydHi-rhGQCEcMGuZqBaahggHo84XXiuD82GnlXM=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Esto es un país  millonario, por eso nos invaden!",
+      "likeCount": 1,
+      "publishedAt": "2026-10-26T10:47:24Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxJb-K8rUteP1p18nd4AaABAg.AcQbPvCbKNbAcSJRyL1ErC",
+          "author": "@latinoamericaengeografia",
+          "authorImage": "https://yt3.ggpht.com/8N2shMnNmkrpfZjWP4RbextkbG5oiGd2uvBt-NGOCXedC4evnd707HDwvr4GepiSxSaw9S7u=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Muchas gracias por compartir tu perspectiva sobre la situación actual de Puerto Rico!",
+          "likeCount": 0,
+          "publishedAt": "2026-10-27T02:40:08Z"
+        }
+      ]
+    }
+  ]
 }
