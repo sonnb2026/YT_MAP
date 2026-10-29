@@ -350,16 +350,8 @@
       "text": "Where is Santa Catarina?",
       "likeCount": 6,
       "publishedAt": "2026-08-05T12:34:29Z",
-      "replyCount": 5,
+      "replyCount": 4,
       "replies": [
-        {
-          "id": "UgyNJH_TdMe4rJr4Xch4AaABAg.A_7eUZwXQxBA_vc0GqdMrZ",
-          "author": "@crisbycris4012",
-          "authorImage": "https://yt3.ggpht.com/sQS9RRiIowuzLnOUewHS0YJfhSeoIdUzT0Vag4MnQgVrWKFEoI0RsFJkhoO7aJUuSKBjYZid=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Do not ask what you already know.",
-          "likeCount": 0,
-          "publishedAt": "2026-08-25T07:34:09Z"
-        },
         {
           "id": "UgyNJH_TdMe4rJr4Xch4AaABAg.A_7eUZwXQxBA_HUHfCaYPF",
           "author": "@giacomoFortini",
@@ -432,7 +424,7 @@
         {
           "id": "UgzQnTQq9SyrqBbBjVN4AaABAg.A_6IZ_y-nveA_8giAmT1Ua",
           "author": "@cmp-vegan5136",
-          "authorImage": "https://yt3.ggpht.com/erkSr-FQpFGO42-GDdDmocZQP3b9iZOmfjg_rjRzkHzuxDZnPsvIagi1UO5j7-vOZLuhATdZeQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorImage": "https://yt3.ggpht.com/5YzP78S0j0T6Fc6WHjmZiLKzBzdDZlrEvJJ2vgCHeLxPXkNov2MVDEr6KtSZJduSZ9t5Oc8UIg=s48-c-k-c0x00ffffff-no-rj",
           "text": "it is not, but favela has culture, a lot of it",
           "likeCount": 4,
           "publishedAt": "2026-08-05T22:13:12Z"
@@ -465,45 +457,6 @@
           "publishedAt": "2026-08-08T03:12:12Z"
         }
       ]
-    },
-    {
-      "id": "UgxNtU9-jSLx2Hzkb-Z4AaABAg",
-      "author": "@GEOFACTS-14",
-      "authorImage": "https://yt3.ggpht.com/E0KfiRWkXzb4hoFlgcPpP4u6q1KHHkKByY9QzrzkV3_273qTNmyBTrtVqorfhfz9fBnNOtdywao=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Brazil is love",
-      "likeCount": 14,
-      "publishedAt": "2026-07-29T16:17:53Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgxNtU9-jSLx2Hzkb-Z4AaABAg.AZr1U_j642oA_uiiuk4U-w",
-          "author": "@r.guerreiro140",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lTsn_SEf4XL2vXIaaoqLUud5NQ9oq-8qVva6nli6qHfYKIw450e_k2BCXQMQ4EGZfOvw=s48-c-k-c0x00ffffff-no-rj",
-          "text": "And beauty",
-          "likeCount": 0,
-          "publishedAt": "2026-08-24T23:13:34Z"
-        }
-      ]
-    },
-    {
-      "id": "Ugwi7PHts3MZgYoYCNR4AaABAg",
-      "author": "@MuyombaHerman",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kexSU46w6cYLAw7n2skj-kjy6uv4tRLz7Q3K1rsh5kWb6z0DWyfRdUElppkPxsBgt36Q=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I luv brazil",
-      "likeCount": 12,
-      "publishedAt": "2026-07-28T19:30:51Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugw5acJdUXnHPj1dKSB4AaABAg",
-      "author": "@MuyombaHerman",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kexSU46w6cYLAw7n2skj-kjy6uv4tRLz7Q3K1rsh5kWb6z0DWyfRdUElppkPxsBgt36Q=s48-c-k-c0x00ffffff-no-rj",
-      "text": "So amazing",
-      "likeCount": 7,
-      "publishedAt": "2026-07-28T19:30:38Z",
-      "replyCount": 0,
-      "replies": []
     }
   ]
 }

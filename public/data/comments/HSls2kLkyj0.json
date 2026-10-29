@@ -39,8 +39,25 @@
       "text": "el mejor aire está en Argentina",
       "likeCount": 0,
       "publishedAt": "2026-08-09T02:23:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "Ugx4KUZZRA6KJTeYXy54AaABAg.A_Grl6NLD1vAcWJlCwmEoS",
+          "author": "@ZadkieL.172",
+          "authorImage": "https://yt3.ggpht.com/YmABGZIDOHPdrzKyVn9p2SAfFTWftCj3kNvuQ-FATAKFBh9QpYY9ZGOp6qe71Ldmq3ZNVOJGsA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "​@Raz.AntiProgresxD",
+          "likeCount": 0,
+          "publishedAt": "2026-10-28T15:59:51Z"
+        },
+        {
+          "id": "Ugx4KUZZRA6KJTeYXy54AaABAg.A_Grl6NLD1vAcVKRzowVaP",
+          "author": "@Raz.AntiProgres",
+          "authorImage": "https://yt3.ggpht.com/fNL2EhjymlGfgR-AcjZ4CBMDwKZPJG-d1m3BZBg8MOvwTdfBa8dudgRp5NKGKaI4LRLPiAgkrw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "En Buenos Aires? (Es broma)",
+          "likeCount": 0,
+          "publishedAt": "2026-10-28T06:46:36Z"
+        }
+      ]
     }
   ]
 }
