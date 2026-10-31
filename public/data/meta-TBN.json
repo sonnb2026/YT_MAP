@@ -1,9 +1,9 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-10-30T02:28:57.071Z",
+  "lastUpdated": "2026-10-31T02:07:35.891Z",
   "channelCount": 20,
-  "videoCount": 2952,
-  "quotaUnitsUsed": 1310,
+  "videoCount": 2960,
+  "quotaUnitsUsed": 1233,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -13,7 +13,7 @@
     "maxSnapshots": 8
   },
   "vphVersion": 2,
-  "liveCount": 1,
+  "liveCount": 2,
   "allKeysExhausted": false,
   "errors": [],
   "replyErrors": []
