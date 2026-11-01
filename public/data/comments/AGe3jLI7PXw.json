@@ -1,5 +1,61 @@
 {
   "videoId": "AGe3jLI7PXw",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgxupRWKoGaNyKFwDvN4AaABAg",
+      "author": "@JustinShaedo",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mmvRSbTAFIHiTxoagn8gxjpCpW4n33GvtuScmET1k=s48-c-k-c0x00ffffff-no-rj",
+      "text": "One of renewables big advantages is it can be drastically decentralised. For that money, you’d think someone could have told them.",
+      "likeCount": 0,
+      "publishedAt": "2026-11-01T01:08:54Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzD4rLlmI2btNDYc6F4AaABAg",
+      "author": "@NineSeptims",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lO1bg78qyz0HR_ZIH8s5qeSfzYr9fVSd1DukOaqgMnQ42rwYpPYWufcdbL9Z9Zby0O7g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Anything but nuclear reactors.",
+      "likeCount": 5,
+      "publishedAt": "2026-10-31T23:34:04Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxtLkc54gx2LM1gRrJ4AaABAg",
+      "author": "@togsikmale5625",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kktQhoI15RTreb1qaAXjIpiYZCwb8gENLtmpLqeabz42k=s48-c-k-c0x00ffffff-no-rj",
+      "text": "While 59% of electrical production is wind, only 10.3% of consumption is. As always and as everywhere: For cosmetic reasons only the production is shown. I am certainly not against renewables, but I hate being lied to.",
+      "likeCount": 10,
+      "publishedAt": "2026-10-31T18:09:37Z",
+      "replyCount": 3,
+      "replies": [
+        {
+          "id": "UgxtLkc54gx2LM1gRrJ4AaABAg.AcdH-Gf04PUAcdrffvE0YT",
+          "author": "@SocratesAth",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k7v2pL2t6PBFsSYmapob6MKXFA5t1ChOmDHFExXKY=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@BrettAnderson3 Firstly, it's better than no source, which is what the other guy provided. Secondly, Wikipedia is a starting point that references proper sources (as I'm sure you know).",
+          "likeCount": 2,
+          "publishedAt": "2026-10-31T23:38:52Z"
+        },
+        {
+          "id": "UgxtLkc54gx2LM1gRrJ4AaABAg.AcdH-Gf04PUAcdgcoEvtFV",
+          "author": "@BrettAnderson3",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n4xO_6HbTn8JQ-g0xlq0K2gkiUXXcuVh4IZk2z2UMhgDU=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@SocratesAth when did Wikipedia become a reliable source?",
+          "likeCount": 0,
+          "publishedAt": "2026-10-31T22:02:21Z"
+        },
+        {
+          "id": "UgxtLkc54gx2LM1gRrJ4AaABAg.AcdH-Gf04PUAcdIYuaSnRY",
+          "author": "@SocratesAth",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k7v2pL2t6PBFsSYmapob6MKXFA5t1ChOmDHFExXKY=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Are you suggesting that the produced energy is not consumed? Or that Denmark only produces 16% of its electricity needs?\n\nA quick Wikipedia search shows that Denmark's electricity production is almost the same as its consumption, and wind is indeed more than half of both.",
+          "likeCount": 5,
+          "publishedAt": "2026-10-31T18:23:14Z"
+        }
+      ]
+    }
+  ]
 }
