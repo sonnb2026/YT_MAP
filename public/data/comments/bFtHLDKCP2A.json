@@ -3,14 +3,42 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwUBtb656OKyP6vKiZ4AaABAg",
+      "author": "@Soniacrespoperez-it9qh",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ln-9HYXgytSDFQbDRDb_rgH6bzytH6hE2dknWeVZrk6K8go1x19Eeds3jB779sjKtoDw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Cuba muy hermosa",
+      "likeCount": 1,
+      "publishedAt": "2026-11-03T12:45:02Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwUBtb656OKyP6vKiZ4AaABAg.AckQEX8x1xPAclIWRRQvDh",
+          "author": "@Geo_Darias",
+          "authorImage": "https://yt3.ggpht.com/HnRfNEz8G5gOTAgny1aqaMlxGjfWTakrapSp1xlvMkHVBMf1xbsOxPC7zy11MCNNTHLhrQtspVk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por ver el video y comentar.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-03T20:56:49Z"
+        }
+      ]
+    },
+    {
       "id": "UgzNLOFjBCJjbrDe83t4AaABAg",
       "author": "@AmparoEsperanza",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lImVEFshLCzwKPwsKil_wI44W3fLO5VgHisdM_-Jtm5ZMsPSMXFTRot9-tSU3zW38Ftw=s48-c-k-c0x00ffffff-no-rj",
       "text": "LO MIRO YO SOY DE CAMAGÜEY CIUDAD CASI LLANA COMPLETAMENTE",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-11-03T00:51:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzNLOFjBCJjbrDe83t4AaABAg.Acj8ckJJhSQAclIrtsVQtp",
+          "author": "@Geo_Darias",
+          "authorImage": "https://yt3.ggpht.com/HnRfNEz8G5gOTAgny1aqaMlxGjfWTakrapSp1xlvMkHVBMf1xbsOxPC7zy11MCNNTHLhrQtspVk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por dedicar un tiempo en ver el video y comentar.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-03T20:59:53Z"
+        }
+      ]
     },
     {
       "id": "Ugyuc5J9OHeYRboitC94AaABAg",
@@ -1869,25 +1897,6 @@
           "text": "Gracias por ver.",
           "likeCount": 1,
           "publishedAt": "2026-10-07T20:26:57Z"
-        }
-      ]
-    },
-    {
-      "id": "Ugx8T9Ow09nVh6BP_Dp4AaABAg",
-      "author": "@ernestochavez2144",
-      "authorImage": "https://yt3.ggpht.com/PEjT97smnyMxvezq4XibChvXTPvJudIKJvaB9C0P22SOYiyDAnx6iuLJwQP-5lx7o4VbAdU8mg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Camaguey",
-      "likeCount": 0,
-      "publishedAt": "2026-10-07T10:28:58Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "Ugx8T9Ow09nVh6BP_Dp4AaABAg.AbeeCJbopveAbgH6KAcILO",
-          "author": "@Geo_Darias",
-          "authorImage": "https://yt3.ggpht.com/HnRfNEz8G5gOTAgny1aqaMlxGjfWTakrapSp1xlvMkHVBMf1xbsOxPC7zy11MCNNTHLhrQtspVk=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Gracias por ver.",
-          "likeCount": 0,
-          "publishedAt": "2026-10-08T01:36:55Z"
         }
       ]
     }

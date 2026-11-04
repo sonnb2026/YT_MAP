@@ -147,8 +147,17 @@
       "text": "Horrible video con tantos anuncios!",
       "likeCount": 0,
       "publishedAt": "2026-10-06T18:58:13Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxSDKKuVE6AI1L68lx4AaABAg.AbczgO9j5eEAclq1IYiq1Z",
+          "author": "@Con_Klaudy",
+          "authorImage": "https://yt3.ggpht.com/-A7Il1ZI2UrA5SlH9bOLPPEm0dvkCmdg-N7FkfFuEXuBEQSzMr4KpKCUqKALHrypi5r5gTj9hg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "A mí no me salió ni un solo anuncio, porque será?",
+          "likeCount": 0,
+          "publishedAt": "2026-11-04T01:58:24Z"
+        }
+      ]
     },
     {
       "id": "UgyfMBc-6wQeE7C5XX14AaABAg",
@@ -469,7 +478,7 @@
       "author": "@julioabarca3723",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nQWtDjnkGaIYmOsk65bxLAmt6sDD9KGCnr9j4CzKha7Ht707dqW4PbsI-coFFXsWHIFA=s48-c-k-c0x00ffffff-no-rj",
       "text": "Excelente, no más agregar El Cañón de Somoto, los Hervideros de San Jacinto y un lugar único y majestuoso,  Los Farallones de Cosigúina.",
-      "likeCount": 16,
+      "likeCount": 17,
       "publishedAt": "2026-09-22T17:26:15Z",
       "replyCount": 0,
       "replies": []
