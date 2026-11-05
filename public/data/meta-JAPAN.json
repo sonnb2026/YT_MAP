@@ -1,18 +1,19 @@
 {
   "list": "JAPAN",
-  "lastUpdated": "2026-11-05T03:17:22.324Z",
+  "lastUpdated": "2026-11-05T10:20:30.845Z",
   "channelCount": 8,
-  "videoCount": 1144,
-  "quotaUnitsUsed": 467,
+  "videoCount": 1078,
+  "quotaUnitsUsed": 128,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
     "targetHours": 24,
     "fallbackMaxHours": 48,
     "youngVideoHours": 48,
-    "maxSnapshots": 8
+    "maxSnapshots": 12
   },
   "vphVersion": 2,
+  "minDurationSeconds": 300,
   "liveCount": 0,
   "allKeysExhausted": false,
   "errors": [],

@@ -1,20 +1,26 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-11-05T03:18:30.711Z",
-  "channelCount": 20,
-  "videoCount": 2992,
-  "quotaUnitsUsed": 1136,
+  "lastUpdated": "2026-11-05T10:24:43.428Z",
+  "channelCount": 35,
+  "videoCount": 2430,
+  "quotaUnitsUsed": 2269,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
     "targetHours": 24,
     "fallbackMaxHours": 48,
     "youngVideoHours": 48,
-    "maxSnapshots": 8
+    "maxSnapshots": 12
   },
   "vphVersion": 2,
-  "liveCount": 1,
+  "minDurationSeconds": 300,
+  "liveCount": 0,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/watch?v=cmPMtpISL1U",
+      "error": "Channel not found for \"https://www.youtube.com/watch?v=cmPMtpISL1U\""
+    }
+  ],
   "replyErrors": []
 }

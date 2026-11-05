@@ -1,19 +1,20 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-05T03:21:09.994Z",
+  "lastUpdated": "2026-11-05T10:25:58.975Z",
   "channelCount": 32,
-  "videoCount": 5481,
-  "quotaUnitsUsed": 2632,
+  "videoCount": 2636,
+  "quotaUnitsUsed": 2959,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
     "targetHours": 24,
     "fallbackMaxHours": 48,
     "youngVideoHours": 48,
-    "maxSnapshots": 8
+    "maxSnapshots": 12
   },
   "vphVersion": 2,
-  "liveCount": 3,
+  "minDurationSeconds": 300,
+  "liveCount": 0,
   "allKeysExhausted": false,
   "errors": [],
   "replyErrors": []

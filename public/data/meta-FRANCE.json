@@ -1,18 +1,19 @@
 {
   "list": "FRANCE",
-  "lastUpdated": "2026-11-05T03:16:42.622Z",
+  "lastUpdated": "2026-11-05T10:20:16.538Z",
   "channelCount": 1,
-  "videoCount": 652,
-  "quotaUnitsUsed": 105,
+  "videoCount": 67,
+  "quotaUnitsUsed": 17,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
     "targetHours": 24,
     "fallbackMaxHours": 48,
     "youngVideoHours": 48,
-    "maxSnapshots": 8
+    "maxSnapshots": 12
   },
   "vphVersion": 2,
+  "minDurationSeconds": 300,
   "liveCount": 0,
   "allKeysExhausted": false,
   "errors": [],
