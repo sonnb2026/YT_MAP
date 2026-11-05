@@ -18,12 +18,12 @@ const ago = (h) => NOW - h * H;
 const video = (viewCount) => ({ viewCount, publishedAt: "2026-09-01T00:00:00Z" });
 const run = (o) => computeVelocity({ nowMs: NOW, liveStatus: "none", ...o });
 
-test("cấu hình mặc định: 6h / mục tiêu 24h / tối đa 48h / video mới 48h / 8 snapshot", () => {
+test("cấu hình mặc định: 6h / mục tiêu 24h / tối đa 48h / video mới 48h / 12 snapshot", () => {
   assert.equal(CONFIG.minIntervalHours, 6);
   assert.equal(CONFIG.targetHours, 24);
   assert.equal(CONFIG.fallbackMaxHours, 48);
   assert.equal(CONFIG.youngVideoHours, 48);
-  assert.equal(CONFIG.maxSnapshots, 8);
+  assert.equal(CONFIG.maxSnapshots, 12);
 });
 
 test("fetch cách lần trước < 6h: giữ nguyên VPH cũ, không thêm snapshot", () => {
