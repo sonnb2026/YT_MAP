@@ -191,6 +191,19 @@ Các ranh giới số (2K/10K sub, 5K/20K/100K view) đang hard-code trong `publ
 (hàm `classifyChannelGroup` và `classifyViewRating`) — sửa trực tiếp 2 hàm này nếu
 muốn đổi ngưỡng.
 
+### Chỉ lấy video từ 5 phút trở lên (loại Shorts)
+
+- Script fetch chỉ lưu video có thời lượng **từ 5 phút (300 giây) trở lên**. Video ngắn hơn (Shorts) bị
+  bỏ qua: không lưu, không lấy bình luận, không tính vào VPH / View 14-30 ngày / Dashboard. Video ngắn đã
+  lưu từ trước sẽ tự bị dọn ở lần fetch kế tiếp (web cũng lọc chúng ra ngay khi tải dữ liệu).
+- Đổi ngưỡng: sửa `MIN_DURATION_SECONDS` trong `.github/workflows/fetch-data.yml` (đặt `"0"` để tắt lọc)
+  **và** hằng số `MIN_DURATION_SECONDS` đầu file `public/app.js` cho khớp.
+- Video đang live / sắp phát có thời lượng 0 nên tạm bị bỏ qua; phát xong sẽ được lấy lại bình thường.
+- "Top 10 kênh · View 7 ngày" trên Dashboard cũng KHÔNG tính Shorts: không dùng tổng view cả kênh của
+  YouTube (số đó gồm cả Shorts) mà cộng view tăng thêm trong 7 ngày của từng video dài, dựa trên các mốc
+  view lưu trong mỗi video (giữ 12 mốc/video, đủ phủ hơn 7 ngày). Video đăng trong 7 ngày tính toàn bộ
+  view. Kênh mới thêm chưa đủ 7 ngày dữ liệu thì dùng số nhập tay (nút "✎ Nhập tay") như trước.
+
 ## 12. (Tuỳ chọn) Đồng bộ sang Google Sheets
 
 Có sẵn 1 Google Apps Script (gửi kèm riêng, file `sync-to-google-sheets.gs.txt`) để
