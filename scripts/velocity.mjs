@@ -17,7 +17,8 @@
 //   YOUNG_VIDEO_HOURS        default 48  - video đăng chưa quá mức này mà chưa có mốc so sánh thì
 //                            dùng trung bình từ lúc đăng (hợp lý vì video còn rất mới). Video cũ hơn
 //                            mà chưa có mốc -> VPH để trống ("pending"), chờ lần chạy sau.
-//   MAX_SNAPSHOTS            default 8   - số mốc giữ lại cho mỗi video.
+//   MAX_SNAPSHOTS            default 12  - số mốc giữ lại cho mỗi video (đủ phủ > 7 ngày kể cả khi
+//                            có thêm vài lần chạy tay - Dashboard dùng để tính "View 7 ngày").
 
 const HOUR_MS = 3600000;
 
@@ -31,7 +32,7 @@ export const CONFIG = {
   targetHours: numEnv("VPH_TARGET_HOURS", 24),
   fallbackMaxHours: numEnv("VPH_FALLBACK_MAX_HOURS", 48),
   youngVideoHours: numEnv("YOUNG_VIDEO_HOURS", 48),
-  maxSnapshots: Math.floor(numEnv("MAX_SNAPSHOTS", 8)),
+  maxSnapshots: Math.floor(numEnv("MAX_SNAPSHOTS", 12)),
 };
 
 // ---------- Live / công chiếu ----------
