@@ -63,6 +63,11 @@
 //                            Also stops paginating as soon as older comments are hit,
 //                            so this actually saves quota, not just storage.
 //   FORCE_REFRESH_COMMENTS   default false - refetch comments even if commentCount unchanged
+//   MIN_DURATION_SECONDS     default 300 (5 phút) - CHỈ lưu video có thời lượng >= mức này, để loại
+//                            video Shorts. Video ngắn hơn bị bỏ qua (không lưu, không lấy bình luận)
+//                            và video ngắn đã lưu từ trước cũng bị dọn ra khỏi dữ liệu. 0 = tắt lọc.
+//                            Lưu ý: video đang live / sắp phát có thời lượng 0 nên tạm thời bị bỏ qua,
+//                            sau khi phát xong (có thời lượng thật) sẽ được lấy lại bình thường.
 //   YOUTUBE_API_KEY          a single API key
 //   YOUTUBE_API_KEYS         multiple API keys, comma-separated - used as automatic
 //                            fallbacks: when one key hits its daily quota
@@ -140,6 +145,28 @@ const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || 
 const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
 const COMMENT_MAX_AGE_DAYS = parseInt(process.env.COMMENT_MAX_AGE_DAYS || "90", 10); // 0 = no limit
 const FORCE_REFRESH_COMMENTS = /^true$/i.test(process.env.FORCE_REFRESH_COMMENTS || "");
+
+// ---------- Lọc theo thời lượng (loại Shorts) ----------
+const MIN_DURATION_SECONDS = (() => {
+  const n = parseInt(process.env.MIN_DURATION_SECONDS ?? "300", 10);
+  return Number.isFinite(n) && n >= 0 ? n : 300;
+})();
+console.log(
+  MIN_DURATION_SECONDS > 0
+    ? `Chỉ lấy video có thời lượng >= ${MIN_DURATION_SECONDS} giây (${(MIN_DURATION_SECONDS / 60).toFixed(1)} phút).`
+    : "MIN_DURATION_SECONDS=0 - không lọc theo thời lượng."
+);
+
+// Thời lượng ISO 8601 của YouTube -> số giây. Hỗ trợ cả dạng có ngày ("P1DT2H3M4S") của live rất dài.
+function durationSeconds(iso) {
+  const m = String(iso || "").match(/^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$/);
+  if (!m) return 0;
+  return (+(m[1] || 0)) * 86400 + (+(m[2] || 0)) * 3600 + (+(m[3] || 0)) * 60 + (+(m[4] || 0));
+}
+
+function isLongEnough(v) {
+  return MIN_DURATION_SECONDS <= 0 || durationSeconds(v.duration) >= MIN_DURATION_SECONDS;
+}
 
 const ROOT = path.resolve(new URL(".", import.meta.url).pathname, "..");
 const DATA_DIR = path.join(ROOT, "public", "data");
@@ -512,6 +539,17 @@ async function fetchList(listName, rawChannels) {
   //    was already in the map for it (from any earlier run) stays as-is.
   const videoMap = new Map(previousVideos);
 
+  // Dọn video ngắn (Shorts) đã lưu từ trước khi có điều kiện thời lượng.
+  let shortRemoved = 0;
+  for (const [id, v] of videoMap) {
+    if (!isLongEnough(v)) {
+      videoMap.delete(id);
+      shortRemoved++;
+    }
+  }
+  if (shortRemoved) console.log(`Dọn ${shortRemoved} video ngắn hơn ${MIN_DURATION_SECONDS} giây khỏi dữ liệu cũ.`);
+  let shortSkipped = 0;
+
   for (const rawChannel of rawChannels) {
     let channel = null;
     const isNewChannel = !channelMap[rawChannel];
@@ -549,6 +587,12 @@ async function fetchList(listName, rawChannels) {
       for (const v of stats) {
         fetchedIds.add(v.videoId);
         listFetchedIds.add(v.videoId);
+        // Video ngắn (Shorts): không lưu, không lấy bình luận (tiết kiệm quota).
+        if (!isLongEnough(v)) {
+          videoMap.delete(v.videoId);
+          shortSkipped++;
+          continue;
+        }
         const prev = previousVideos.get(v.videoId);
         const velocity = computeVelocity({
           video: v,
@@ -657,6 +701,11 @@ async function fetchList(listName, rawChannels) {
         for (const v of stats) {
           const prev = videoMap.get(v.videoId);
           if (!prev) continue;
+          if (!isLongEnough(v)) {
+            videoMap.delete(v.videoId);
+            shortSkipped++;
+            continue;
+          }
           const ch = channelInfo.get(prev.channelId);
           videoMap.set(v.videoId, {
             ...prev,
@@ -679,6 +728,8 @@ async function fetchList(listName, rawChannels) {
     console.log(`Cập nhật số view/VPH cho ${refreshed}/${staleIds.length} video cũ ngoài ${MAX_VIDEOS_PER_CHANNEL} video mới nhất.`);
   }
 
+  if (shortSkipped) console.log(`Bỏ qua ${shortSkipped} video ngắn hơn ${MIN_DURATION_SECONDS} giây (Shorts) trong lần chạy này.`);
+
   const allVideos = [...videoMap.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   // Mỗi video 1 dòng: vẫn là JSON hợp lệ, nhưng không bị "xé" mảng snapshots thành hàng chục dòng
   // (JSON.stringify(..., null, 2) sẽ làm file phình gấp nhiều lần và diff git rất khó đọc).
@@ -695,6 +746,7 @@ async function fetchList(listName, rawChannels) {
         apiKeysConfigured: API_KEYS.length,
         vph: VPH_CONFIG,
         vphVersion: VPH_VERSION,
+        minDurationSeconds: MIN_DURATION_SECONDS,
         liveCount: allVideos.filter((v) => v.liveStatus === "live" || v.liveStatus === "upcoming").length,
         allKeysExhausted: keysExhausted,
         errors,
