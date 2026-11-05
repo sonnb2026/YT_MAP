@@ -48,6 +48,8 @@ jobs:
           REFRESH_ALL_VIDEO_STATS: "true"
           FULL_CHANNEL_HISTORY: ${{ github.event.inputs.full_channel_history || 'false' }}
           FULL_HISTORY_CHANNELS: ${{ github.event.inputs.full_history_channels || '' }}
+          # Chỉ lấy video dài từ 5 phút (300 giây) trở lên - loại video Shorts. Đặt "0" để tắt lọc.
+          MIN_DURATION_SECONDS: "300"
           MAX_COMMENTS_PER_VIDEO: "100"
           MAX_REPLIES_PER_COMMENT: "20"
           COMMENT_ORDER: "relevance"
