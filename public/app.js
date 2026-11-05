@@ -130,14 +130,20 @@ function fmtDateTime(iso) {
   return DATETIME_FMT.format(new Date(iso));
 }
 
+// Hỗ trợ cả dạng có ngày ("P1DT2H3M4S") của các buổi live rất dài.
 function parseDurationToSeconds(iso) {
   if (!iso) return 0;
-  const m = iso.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  const m = String(iso).match(/^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$/);
   if (!m) return 0;
-  const h = parseInt(m[1] || "0", 10);
-  const min = parseInt(m[2] || "0", 10);
-  const s = parseInt(m[3] || "0", 10);
-  return h * 3600 + min * 60 + s;
+  return (+(m[1] || 0)) * 86400 + (+(m[2] || 0)) * 3600 + (+(m[3] || 0)) * 60 + (+(m[4] || 0));
+}
+
+// Chỉ hiển thị video dài từ 5 phút trở lên (loại Shorts). Phải khớp MIN_DURATION_SECONDS trong
+// .github/workflows/fetch-data.yml - script fetch đã lọc sẵn, bước lọc này để dữ liệu cũ (lấy trước khi
+// có điều kiện) cũng được loại ngay mà không phải đợi lần fetch sau.
+const MIN_DURATION_SECONDS = 300;
+function isLongEnough(v) {
+  return parseDurationToSeconds(v.duration) >= MIN_DURATION_SECONDS;
 }
 
 function fmtDuration(iso) {
@@ -538,24 +544,19 @@ async function loadData() {
       fetch(`data/videos-${currentList}.json`, { cache: "no-cache" }),
       fetch(`data/meta-${currentList}.json`, { cache: "no-cache" }),
     ]);
-    allVideos = videosRes.ok ? await videosRes.json() : [];
+    allVideos = (videosRes.ok ? await videosRes.json() : []).filter(isLongEnough);
     const meta = metaRes.ok ? await metaRes.json() : null;
-    // Lịch sử tổng view kênh + View 7 ngày nhập tay (file có thể chưa tồn tại -> bỏ qua).
-    const [statsJson, manualJson] = await Promise.all(
-      [`data/channel-stats-${currentList}.json`, `data/manual-views7d-${currentList}.json`].map((u) =>
-        fetch(u, { cache: "no-cache" })
-          .then((r) => (r.ok ? r.json() : {}))
-          .catch(() => ({}))
-      )
-    );
-    channelStats = statsJson || {};
-    manualViews7d = manualJson || {};
+    // View 7 ngày nhập tay (file có thể chưa tồn tại -> bỏ qua).
+    manualViews7d = await fetch(`data/manual-views7d-${currentList}.json`, { cache: "no-cache" })
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({}));
     dataUpdatedMs = meta?.lastUpdated ? Date.parse(meta.lastUpdated) || 0 : 0;
+    weekViewsCache = null;
 
     populateChannelFilter();
     if (meta) {
       els.metaChannels.textContent = meta.channelCount ?? "–";
-      els.metaVideos.textContent = meta.videoCount ?? allVideos.length;
+      els.metaVideos.textContent = fmtNumber(allVideos.length);
       els.metaUpdated.textContent = meta.lastUpdated ? fmtDateTime(meta.lastUpdated) : "–";
     } else {
       els.metaVideos.textContent = allVideos.length;
@@ -1193,28 +1194,46 @@ function dashRow({ kind, value, color, label, note, vph, total, barPct, count, c
   </button>`;
 }
 
-// ---------- View 7 ngày của KÊNH ----------
-// = tổng view kênh hôm nay - tổng view kênh 7 ngày trước (tổng view kênh = statistics.viewCount do
-// YouTube cung cấp, đã gồm MỌI video của kênh). Phần chênh lệch = view tăng thêm của video cũ + toàn bộ
-// view của video mới đăng trong 7 ngày (lúc trước chúng chưa tồn tại, tính là 0).
-// Lịch sử lấy từ data/channel-stats-<tab>.json (mỗi lần chạy 1 mốc); chấp nhận mốc cách 6,5 - 8 ngày
-// rồi quy đổi về đúng 7 ngày.
-// Kênh chưa đủ 7 ngày lịch sử -> dùng số NHẬP TAY (data/manual-views7d-<tab>.json) nếu có.
-// Đủ dữ liệu thì luôn dùng số tự động, không nhập tay.
+// ---------- View 7 ngày của KÊNH (CHỈ video dài >= 5 phút, KHÔNG tính Shorts) ----------
+// Không dùng tổng view của cả kênh (statistics.viewCount) vì số đó gồm cả view của Shorts. Thay vào đó
+// cộng view tăng thêm trong 7 ngày của TỪNG video dài đang theo dõi (allVideos đã lọc bỏ Shorts),
+// dựa trên các mốc view [thời điểm, lượt xem] lưu sẵn trong mỗi video (snapshots):
+//   - Video đăng trong 7 ngày gần nhất: toàn bộ lượt xem hiện tại (lúc trước video chưa tồn tại).
+//   - Video cũ hơn: view hiện tại - view ở mốc cách ~7 ngày (chấp nhận mốc cách 6,5 - 8 ngày, quy đổi
+//     về đúng 7 ngày).
+//   - Video không còn được cập nhật > 48 giờ (bị xoá/ẩn...) thì bỏ qua.
+// Kênh có quá 5% video cũ chưa có mốc ~7 ngày trước (kênh mới thêm...) coi là chưa đủ dữ liệu ->
+// dùng số NHẬP TAY (data/manual-views7d-<tab>.json) nếu có. Đủ dữ liệu thì luôn dùng số tự động.
 const DAY_MS_DASH = 24 * 3600 * 1000;
 const WEEK_MS = 7 * DAY_MS_DASH;
-let channelStats = {};
+const WEEK_MAX_MISSING_RATIO = 0.05;
 let manualViews7d = {};
+let weekViewsCache = null; // channelId -> { gain, eligible, missing, days } - tính lại khi đổi tab
 
-function channelWeekViews(channelId) {
-  const hist = channelStats[channelId];
-  let days = 0;
-  if (Array.isArray(hist) && hist.length) {
-    const last = hist[hist.length - 1];
-    days = (last[0] - hist[0][0]) / DAY_MS_DASH;
+function computeWeekViews() {
+  const out = new Map();
+  for (const v of allVideos) {
+    let c = out.get(v.channelId);
+    if (!c) out.set(v.channelId, (c = { gain: 0, eligible: 0, missing: 0, days: 0 }));
+    const snaps = (Array.isArray(v.snapshots) ? v.snapshots : [])
+      .filter((s) => Array.isArray(s) && Number.isFinite(s[0]) && Number.isFinite(s[1]))
+      .sort((a, b) => a[0] - b[0]);
+    const last = snaps[snaps.length - 1];
+    if (!last) {
+      c.eligible++;
+      c.missing++;
+      continue;
+    }
+    if (dataUpdatedMs && dataUpdatedMs - last[0] > VPH_MAX_AGE_MS) continue; // video không còn cập nhật
+    c.eligible++;
+    c.days = Math.max(c.days, (last[0] - snaps[0][0]) / DAY_MS_DASH);
+    if (Date.parse(v.publishedAt) > last[0] - WEEK_MS) {
+      c.gain += last[1];
+      continue;
+    }
     let best = null;
     let bestDiff = Infinity;
-    for (const p of hist) {
+    for (const p of snaps) {
       const age = last[0] - p[0];
       if (age < 6.5 * DAY_MS_DASH || age > 8 * DAY_MS_DASH) continue;
       const diff = Math.abs(age - WEEK_MS);
@@ -1223,10 +1242,18 @@ function channelWeekViews(channelId) {
         bestDiff = diff;
       }
     }
-    if (best) {
-      const views = Math.round((Math.max(0, last[1] - best[1]) * WEEK_MS) / (last[0] - best[0]));
-      return { views, source: "auto", days };
-    }
+    if (best) c.gain += (Math.max(0, last[1] - best[1]) * WEEK_MS) / (last[0] - best[0]);
+    else c.missing++;
+  }
+  return out;
+}
+
+function channelWeekViews(channelId) {
+  if (!weekViewsCache) weekViewsCache = computeWeekViews();
+  const c = weekViewsCache.get(channelId);
+  const days = c ? c.days : 0;
+  if (c && c.eligible > 0 && c.missing <= Math.floor(c.eligible * WEEK_MAX_MISSING_RATIO)) {
+    return { views: Math.round(c.gain), source: "auto", days };
   }
   const m = manualViews7d[channelId];
   if (m && Number.isFinite(m.views)) return { views: m.views, source: "manual", at: m.at, days };
@@ -1404,11 +1431,11 @@ ${older ? `      <p class="dash-card__foot">Không rõ ngày đăng: ${fmtNumber
     </article>
     <article class="dash-card dash-card--top dash-card--week">
       <header class="dash-card__head">
-        <h3>Top 10 kênh · View 7 ngày</h3>
+        <h3 title="View tăng thêm trong 7 ngày của các video dài từ 5 phút trở lên - không tính Shorts">Top 10 kênh · View 7 ngày</h3>
         <button type="button" class="dash-card__action" data-dash-action="manual-views" title="Nhập tay View 7 ngày cho kênh chưa đủ dữ liệu">✎ Nhập tay</button>
       </header>
       <div class="dash-card__rows dash-card__rows--scroll">${weekRows}</div>
-      <p class="dash-card__foot">Tổng ${fmtNumber(weekTotal)} view phát sinh 7 ngày${weekMissing ? ` · ${fmtNumber(weekMissing)} kênh chưa đủ dữ liệu` : ""}</p>
+      <p class="dash-card__foot">Tổng ${fmtNumber(weekTotal)} view phát sinh 7 ngày · không tính Shorts${weekMissing ? ` · ${fmtNumber(weekMissing)} kênh chưa đủ dữ liệu` : ""}</p>
     </article>`;
   els.vphDash.querySelectorAll(".dash-card__rows--scroll").forEach((el, i) => {
     if (prevScroll[i]) el.scrollTop = prevScroll[i];
@@ -1440,7 +1467,7 @@ function openManualViewsModal() {
       <div class="modal modal--manual" role="dialog" aria-modal="true" aria-labelledby="manualViewsTitle">
         <button class="modal__close" data-manual-close aria-label="Đóng">✕</button>
         <h2 class="manual-views__title" id="manualViewsTitle">Nhập tay View 7 ngày</h2>
-        <p class="manual-views__hint">Tổng view phát sinh thêm của tất cả video trong kênh trong 7 ngày qua. Chỉ cần nhập cho kênh <b>chưa đủ 7 ngày dữ liệu</b> - khi đủ dữ liệu app tự tính và thay số nhập tay. Có thể gõ 1.250.000 hoặc 1,25tr / 850k. Để trống = xoá số nhập tay.</p>
+        <p class="manual-views__hint">Tổng view phát sinh thêm trong 7 ngày qua của các video dài từ 5 phút trở lên trong kênh (không tính Shorts). Chỉ cần nhập cho kênh <b>chưa đủ 7 ngày dữ liệu</b> - khi đủ dữ liệu app tự tính và thay số nhập tay. Có thể gõ 1.250.000 hoặc 1,25tr / 850k. Để trống = xoá số nhập tay.</p>
         <div class="manual-views__list"></div>
         <div class="manual-views__actions">
           <span class="manual-views__status" aria-live="polite"></span>
