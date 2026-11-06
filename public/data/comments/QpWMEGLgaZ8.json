@@ -872,8 +872,17 @@
       "text": "Eye-ran ❌ Ee-ran ✅",
       "likeCount": 2,
       "publishedAt": "2026-09-12T10:25:51Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyXucSRmczyapZWM6B4AaABAg.AaeGycz5vMwAaecRImPR6L",
+          "author": "@MrRudra-",
+          "authorImage": "https://yt3.ggpht.com/RPBXNJzGVbJQ3oO5jJgijFeN7Qk9b_uiWFEZpkDZAjQon4eLQokMJ_vOZ5-Ot1kiZnSBYTPeAw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "US-ran",
+          "likeCount": 0,
+          "publishedAt": "2026-09-12T13:42:08Z"
+        }
+      ]
     },
     {
       "id": "UgzCkrLMnlIjQziKsEJ4AaABAg",
