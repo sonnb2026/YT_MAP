@@ -3,14 +3,42 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzqMoEgnOJ1DIm1RmR4AaABAg",
+      "author": "@lilabravo3171",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n1hHNFfhXBR4BASbMAHa8CRJOT-_7vV_OG-i3RKWwWIZ-j-3B7Fl4iapOfpamSrb2qYA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me encantó el vídeo \nGracias 😊",
+      "likeCount": 0,
+      "publishedAt": "2026-11-07T04:32:45Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzqMoEgnOJ1DIm1RmR4AaABAg.Actq4UObuzmAcvms-_JTjw",
+          "author": "@planetaldescubierto",
+          "authorImage": "https://yt3.ggpht.com/8Zq3zaxCSeMmYUn_2V-nnNT8dQJlWOSTuFaFEDG9N5K-k-xFU7xi7HP25QXJh3Jr6D6ef7gcu3o=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que te gustó! Me alegra mucho que hayas aprendido algo nuevo sobre Argentina.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-07T22:43:11Z"
+        }
+      ]
+    },
+    {
       "id": "Ugx0gHcBEaKCLAVf1Op4AaABAg",
       "author": "@dorasosa4136",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n4wJ1o745a8pX0WITv50Uujw4uXvzulMVIepHG4zeFQ8-oJCV9hJ7hsVaXbntXvYzOwA=s48-c-k-c0x00ffffff-no-rj",
       "text": "Todos amamos nuestra bendita patria ,hay que defenderla y cuidarla",
       "likeCount": 0,
       "publishedAt": "2026-11-07T01:31:36Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx0gHcBEaKCLAVf1Op4AaABAg.ActWLcu1DMQAcvn2Wv7yqt",
+          "author": "@planetaldescubierto",
+          "authorImage": "https://yt3.ggpht.com/8Zq3zaxCSeMmYUn_2V-nnNT8dQJlWOSTuFaFEDG9N5K-k-xFU7xi7HP25QXJh3Jr6D6ef7gcu3o=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Absolutamente! El amor por nuestra patria es algo que nos une a todos.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-07T22:44:45Z"
+        }
+      ]
     },
     {
       "id": "Ugzsw7ezp7wHn_dCpwh4AaABAg",
@@ -1869,25 +1897,6 @@
           "text": "¡Qué bueno que este video te haga sentir orgullo por tu país! Hay muchas cosas increíbles por descubrir en Argentina.",
           "likeCount": 0,
           "publishedAt": "2026-09-10T16:34:09Z"
-        }
-      ]
-    },
-    {
-      "id": "UgxSlriO2XzGRUwLPqN4AaABAg",
-      "author": "@nahuelmartinez3438",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l0T8vED83VkEgNW2zJ_NMqkEldDsXGMBEPHKfdcsY=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Muy bueno el video, siendo argentino hay cosas que no sabia. Saludos.",
-      "likeCount": 0,
-      "publishedAt": "2026-09-06T04:10:12Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgxSlriO2XzGRUwLPqN4AaABAg.AaP9D-pNtnwAaSiC1CulGZ",
-          "author": "@planetaldescubierto",
-          "authorImage": "https://yt3.ggpht.com/8Zq3zaxCSeMmYUn_2V-nnNT8dQJlWOSTuFaFEDG9N5K-k-xFU7xi7HP25QXJh3Jr6D6ef7gcu3o=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Gracias Nahuel, un saludo 🤗",
-          "likeCount": 0,
-          "publishedAt": "2026-09-07T13:22:21Z"
         }
       ]
     }
