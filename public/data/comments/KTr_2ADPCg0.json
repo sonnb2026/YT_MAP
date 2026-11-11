@@ -9,8 +9,17 @@
       "text": "Qué gran vídeo ...",
       "likeCount": 0,
       "publishedAt": "2026-11-09T23:02:01Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxyioQYyxwxnUpTXn94AaABAg.Ad-ybf5cardAd2-cGFjCrJ",
+          "author": "@GeografiaconGeoff",
+          "authorImage": "https://yt3.ggpht.com/wJHtyMJAZeqydOnyAEQGWmLLZ0maDSzJO3YD_Gf9KMcZRvfI9pqAA_8NPLK5XbfDn4B04HuJHA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Se agradece!!",
+          "likeCount": 0,
+          "publishedAt": "2026-11-10T17:58:03Z"
+        }
+      ]
     },
     {
       "id": "UgyPoIvL0cGEYkZgynJ4AaABAg",

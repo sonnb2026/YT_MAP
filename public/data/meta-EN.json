@@ -1,9 +1,9 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-10T04:37:56.777Z",
+  "lastUpdated": "2026-11-11T02:44:46.711Z",
   "channelCount": 32,
-  "videoCount": 2659,
-  "quotaUnitsUsed": 3490,
+  "videoCount": 2666,
+  "quotaUnitsUsed": 3247,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -16,6 +16,19 @@
   "minDurationSeconds": 300,
   "liveCount": 0,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "videoId": "YObpi5FxgFI",
+      "error": "commentThreads failed: processingFailure"
+    },
+    {
+      "videoId": "osMz3MxmZcU",
+      "error": "commentThreads failed: processingFailure"
+    },
+    {
+      "videoId": "Zjl4iQPBZ3Y",
+      "error": "commentThreads failed: processingFailure"
+    }
+  ],
   "replyErrors": []
 }
