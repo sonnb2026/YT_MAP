@@ -76,8 +76,17 @@
       "text": "Lake America!!!!!",
       "likeCount": 0,
       "publishedAt": "2026-11-12T01:48:58Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxTQYlJhmgmGwbDWrp4AaABAg.Ad5QJEZLWPVAd9X3TYbrrX",
+          "author": "@Driven2Beers",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nB_qqSaggFPpy1VPIlzoY9MTgIA5ohKXVPDTobiOWDQA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Lake Disney!",
+          "likeCount": 0,
+          "publishedAt": "2026-11-13T16:04:56Z"
+        }
+      ]
     },
     {
       "id": "UgyiUHBQdmG2MM4-9Lp4AaABAg",
