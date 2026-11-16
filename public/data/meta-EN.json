@@ -1,9 +1,9 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-15T02:33:29.934Z",
+  "lastUpdated": "2026-11-16T02:47:54.866Z",
   "channelCount": 32,
-  "videoCount": 2684,
-  "quotaUnitsUsed": 2972,
+  "videoCount": 2686,
+  "quotaUnitsUsed": 3565,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -16,6 +16,11 @@
   "minDurationSeconds": 300,
   "liveCount": 0,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/@Curiousmindofficial-yt/videos",
+      "error": "Channel not found for \"https://www.youtube.com/@Curiousmindofficial-yt/videos\""
+    }
+  ],
   "replyErrors": []
 }

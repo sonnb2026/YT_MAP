@@ -3,6 +3,55 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugxs6zE0rce86_qxEAN4AaABAg",
+      "author": "@SamAh-e3j",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lA7jr0LZvBQFLmBc7jijnVjyoazsJEdCveoYk4bFvSLqy3mJRIVzhAwp7IKIkTOUTl9A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Fix Mojang Bedrock",
+      "likeCount": 0,
+      "publishedAt": "2026-11-15T10:27:17Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwBqQR_bWbGK9VWBEB4AaABAg",
+      "author": "@PowerExtreme12",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nXDqQAtlqNrcKbG_7qSspLhG28d3RqeT1BXvWt5cs=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Stolen video from real life lore",
+      "likeCount": 0,
+      "publishedAt": "2026-11-15T08:45:22Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugx8PD9ypatyaOPWii94AaABAg",
+      "author": "@roznirose",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mSuS_kqPsQ5FApebh9844nMbYko0yJYZuizn5ITQWmlbY3=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I found a bigger route",
+      "likeCount": 0,
+      "publishedAt": "2026-11-15T05:45:23Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxtLLlrcguwnIT1Khl4AaABAg",
+      "author": "@AEFeng-c7s",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lE-2v4pt1Am5Vt4Pedf4xjFjaVCExlg_cJVl7OY2xcwvV1BhXRzUSHIHLwFa5dONFuTw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Why does Antarctica look so weird",
+      "likeCount": 0,
+      "publishedAt": "2026-11-15T05:30:25Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxtLLlrcguwnIT1Khl4AaABAg.AdDY1sONAmVAdE1ggeGXmU",
+          "author": "@baruchpale",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nZVeRQREXNqfuBMgyg_jK8kKeq1QMwlVGrQYJmPjs=s48-c-k-c0x00ffffff-no-rj",
+          "text": "C'est la manière de représenter la terre qui le montre ainsi (projection de Mercator).",
+          "likeCount": 0,
+          "publishedAt": "2026-11-15T10:07:01Z"
+        }
+      ]
+    },
+    {
       "id": "UgyaBB03mtC9IEmi69d4AaABAg",
       "author": "@ally-q7k9b",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kli0k3C-RDbTpqOliVbT34Ikn-oTv3_V2RCefRrDn7vl9ySG3kVOKW5vZSl9ROpKUKsg=s48-c-k-c0x00ffffff-no-rj",
@@ -17,10 +66,27 @@
       "author": "@GeoLab2-g2s",
       "authorImage": "https://yt3.ggpht.com/p01pbSE6VasdNepGmEFH32vsRAH1LDcN98twrc-qGn1EeXHwIOwRLARaO1UD5vGlJBYDGJhqbQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "The Pakistan to Russia route blew my mind — 32,090 km in a straight line, through the Mozambique Channel and Drake Passage, and still missing every island. Point Nemo was a great detail too.",
-      "likeCount": 0,
+      "likeCount": 2,
       "publishedAt": "2026-11-15T00:43:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgzY5_2oxH54oJB4ws94AaABAg.AdD1Bt-09MvAdFFes_iuag",
+          "author": "@slnik1853",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kG9PK8vC9znGcGKaqctGpxGMcQ0BQUgw80vkf_iysXug=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Интересно было посмотреть, интересно будет найти и самый длинный сухопутный маршрут..",
+          "likeCount": 0,
+          "publishedAt": "2026-11-15T21:28:21Z"
+        },
+        {
+          "id": "UgzY5_2oxH54oJB4ws94AaABAg.AdD1Bt-09MvAdEqvE0ySXa",
+          "author": "@Rayan5thmissing-k",
+          "authorImage": "https://yt3.ggpht.com/Yg5t3OBpkhe5pusoe2U8Sg1_FgDnsKSqpoEJ5_UkCwRTFgYz_PL0w4jtDRbu5zQ_0wjnqtdh=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Dude I live in pakistan",
+          "likeCount": 0,
+          "publishedAt": "2026-11-15T17:43:23Z"
+        }
+      ]
     },
     {
       "id": "UgwKLniIktzag7jbfgB4AaABAg",
