@@ -1,9 +1,9 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-11-16T02:44:56.087Z",
+  "lastUpdated": "2026-11-17T05:02:28.516Z",
   "channelCount": 35,
-  "videoCount": 2548,
-  "quotaUnitsUsed": 2521,
+  "videoCount": 2561,
+  "quotaUnitsUsed": 2033,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -17,18 +17,6 @@
   "liveCount": 0,
   "allKeysExhausted": false,
   "errors": [
-    {
-      "videoId": "FXfxW2dTW6M",
-      "error": "commentThreads failed: processingFailure"
-    },
-    {
-      "videoId": "Iw6IE2yg424",
-      "error": "commentThreads failed: processingFailure"
-    },
-    {
-      "videoId": "mnnNbHKzquc",
-      "error": "commentThreads failed: processingFailure"
-    },
     {
       "channel": "https://www.youtube.com/watch?v=cmPMtpISL1U",
       "error": "Channel not found for \"https://www.youtube.com/watch?v=cmPMtpISL1U\""
