@@ -184,8 +184,17 @@
       "text": "First!",
       "likeCount": 0,
       "publishedAt": "2026-11-14T20:39:34Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzNGJCFE7EIsZw9VWV4AaABAg.AdCaHjnwlzbAdKq1xVaSFJ",
+          "author": "@MegaMegaUzay28",
+          "authorImage": "https://yt3.ggpht.com/oNGH08H-BLKdGMzxeNrbUfWW8lxF057nLaDArqGDcVpTjjm0QVWzrcsKxWuv86NQ1OYH8iFMwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Shame on you kid",
+          "likeCount": 0,
+          "publishedAt": "2026-11-18T01:31:09Z"
+        }
+      ]
     }
   ]
 }
