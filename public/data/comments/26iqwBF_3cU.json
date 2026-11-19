@@ -184,8 +184,24 @@
       "text": "First!",
       "likeCount": 0,
       "publishedAt": "2026-11-14T20:39:34Z",
-      "replyCount": 1,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgzNGJCFE7EIsZw9VWV4AaABAg.AdCaHjnwlzbAdMw6_MOlrv",
+          "author": "@MegaMegaUzay28",
+          "authorImage": "https://yt3.ggpht.com/oNGH08H-BLKdGMzxeNrbUfWW8lxF057nLaDArqGDcVpTjjm0QVWzrcsKxWuv86NQ1OYH8iFMwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@Brody-g8o .",
+          "likeCount": 0,
+          "publishedAt": "2026-11-18T21:02:41Z"
+        },
+        {
+          "id": "UgzNGJCFE7EIsZw9VWV4AaABAg.AdCaHjnwlzbAdMuS_1Jnay",
+          "author": "@Brody-g8o",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l-sTb0TDAUjJSzXF0YMIxm-GPOSJ-JBJhTfq0RFjZ6wBnYWdvZDSMmBi5u9Ay9p1Dp1Q=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@MegaMegaUzay28 sr",
+          "likeCount": 0,
+          "publishedAt": "2026-11-18T20:48:13Z"
+        },
         {
           "id": "UgzNGJCFE7EIsZw9VWV4AaABAg.AdCaHjnwlzbAdKq1xVaSFJ",
           "author": "@MegaMegaUzay28",

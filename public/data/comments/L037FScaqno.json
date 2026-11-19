@@ -3,6 +3,16 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugyx8NwfT22e1JviFzt4AaABAg",
+      "author": "@watanabe-youday",
+      "authorImage": "https://yt3.ggpht.com/Yuy26dEnIRlC8QdiRvJKmV8F44q9gv7H-vFeMfJXH_GzN175p8xc6MveHo6Em40ZKIplThvPEA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "雪国は勘弁。\n冬は命取り。",
+      "likeCount": 1,
+      "publishedAt": "2026-11-18T14:21:42Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgyAJY1QL830wq4f1v94AaABAg",
       "author": "@katsupuyo1",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mL0Vn4z85fvgFLii3oc9Ilexgrwqf2kwHPpjbzxpc=s48-c-k-c0x00ffffff-no-rj",
@@ -27,37 +37,8 @@
       "author": "@aboab9882",
       "authorImage": "https://yt3.ggpht.com/3GVOZlw2rBWLURacuEgzcnI35YAnqZmJM-VIrpuWpfzPfk4-3fZnZeRnkq-6QLJE6WRlB0pkPrE=s48-c-k-c0x00ffffff-no-rj",
       "text": "どうせなら日本海側の降水量が半分くらいにまで減少すればいいのに\n逆に太平洋側の降水量を1.5〜2倍に増やしてほしい\n※冬場なら",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-11-01T04:07:38Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzR54MWoI5fDVHt7ZF4AaABAg",
-      "author": "@junspog2525",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lliumgxLIvbtqMOXmG9gQ1OEtYzr8UgsFobg_bgA4=s48-c-k-c0x00ffffff-no-rj",
-      "text": "違います。\n明治政府が太平洋側を表日本、日本海側を裏日本と呼称したからです。\nそりゃ、裏より表を発展させるだろ。",
-      "likeCount": 0,
-      "publishedAt": "2026-10-30T08:36:34Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgzR54MWoI5fDVHt7ZF4AaABAg.Ac_fc9YKV3QAcd476m-ph9",
-          "author": "@ftnkknnmr",
-          "authorImage": "https://yt3.ggpht.com/KtrLdMKsCjlqBuWflRmOaGKa9CNnUKeAITi16p0YnxSHCPasn6e2eXi3nQQSLOe50wZAY_leNyE=s48-c-k-c0x00ffffff-no-rj",
-          "text": "いや逆じゃね？\n明治の時には既に日本海側と太平洋側で発展のペースに大きな差がついてたから、発展しないから裏日本と揶揄されてたのでは？\n当時特に発展していた六大都市は全て太平洋側に位置していたし",
-          "likeCount": 0,
-          "publishedAt": "2026-10-31T16:17:06Z"
-        }
-      ]
-    },
-    {
-      "id": "UgzKLNe8kDhRHK5M3M54AaABAg",
-      "author": "@junspog2525",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lliumgxLIvbtqMOXmG9gQ1OEtYzr8UgsFobg_bgA4=s48-c-k-c0x00ffffff-no-rj",
-      "text": "裏日本だからじゃね？",
-      "likeCount": 0,
-      "publishedAt": "2026-10-30T08:19:11Z",
       "replyCount": 0,
       "replies": []
     },
@@ -216,7 +197,7 @@
       "author": "@mic5691",
       "authorImage": "https://yt3.ggpht.com/ws9Opqmndd9VaShzArETz2YKRpIs1CqI3WyjpGgsvvZApTP9h930Z8_D9lmz0hJqHz7Ko2mQOg=s48-c-k-c0x00ffffff-no-rj",
       "text": "少し住めばわかる\nやはり冬の大雪は生活する上でも産業を興す上でも圧倒的なハンディです",
-      "likeCount": 11,
+      "likeCount": 12,
       "publishedAt": "2026-10-24T14:59:31Z",
       "replyCount": 0,
       "replies": []
@@ -226,7 +207,7 @@
       "author": "@たっちゃん-n6x",
       "authorImage": "https://yt3.ggpht.com/F2aKidbC7u_Ykkz-BGJyJpKjx6ZsVKzSHaRUSrDMHJ1ucGrvZisnVwLt41Bq-mCaZIupU33JiA=s48-c-k-c0x00ffffff-no-rj",
       "text": "日本からは、札幌、東京、名古屋、大阪、福岡の5都市がリストに入っています。\nRAJスコアが低い（気候災害リスクに対する適応力が高い）順に、札幌（72カ国中15位タイ）、東京と名古屋（ともに36位タイ）、大阪（44位タイ）、福岡（51位タイ）となっています。\n\nAlphaGeoによると、札幌を除く日本の各都市は暑さに弱いために物理的リスクスコアが高く、適応率が高めのわりにRAJスコアが高くなっているとのこと。大阪はその代表例で、そもそもの物理的リスクが高すぎて、適応に力を入れても、暑さに対するレジリエンスが強くなりきれなくなっています。\n\nこういった状況は、ここ数年の熱中症による死者や救急搬送者が多いのが、日本の都市の暑さに対するリスクの高さを如実に物語っています\n\n今や気象庁環境省お墨付き、水破産とも無縁！ノアの方舟シティ札幌😊",
-      "likeCount": 3,
+      "likeCount": 4,
       "publishedAt": "2026-10-24T06:25:26Z",
       "replyCount": 5,
       "replies": [
@@ -297,7 +278,7 @@
       "author": "@あい-h7s",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m8EW1-UuGefzOJzcI5DAXRDMpXkvPot9pD5mWk8xGT69jfrB_r9RFUZ8M3V2mGunMjuL5VqRs0=s48-c-k-c0x00ffffff-no-rj",
       "text": "太平洋ベルトに工業集めたからでしょ",
-      "likeCount": 2,
+      "likeCount": 3,
       "publishedAt": "2026-10-23T22:13:52Z",
       "replyCount": 0,
       "replies": []
@@ -354,7 +335,7 @@
       "author": "@sozaky498",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mRyd-2DiNDNfTmIMBbKCH7l1AfvAfjMJJDs1e9KCG2QA=s48-c-k-c0x00ffffff-no-rj",
       "text": "かつては、新潟県が人口一番多かったんですね。",
-      "likeCount": 9,
+      "likeCount": 10,
       "publishedAt": "2026-10-22T18:20:09Z",
       "replyCount": 0,
       "replies": []
@@ -474,7 +455,7 @@
       "author": "@へずま大介",
       "authorImage": "https://yt3.ggpht.com/EG2K7Iv03p0In2fOTUUjyuGDmhuZZceggRA7eK6MMiknj33Mn9dV07HpJ2Auh2AtMk7sYfws=s48-c-k-c0x00ffffff-no-rj",
       "text": "山口県と兵庫県もはっきり北部と南部の格差がありますよね。",
-      "likeCount": 9,
+      "likeCount": 10,
       "publishedAt": "2026-10-19T05:22:33Z",
       "replyCount": 3,
       "replies": [
@@ -588,7 +569,7 @@
       "author": "@広史大舘",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l1Ei_UOn3gRmgfSr7yz9KSSKyCjd8q_rgy03IhZBNtW-WLHx4=s48-c-k-c0x00ffffff-no-rj",
       "text": "日本海側は冬の豪雪が最大のネック、交通が途絶し、村落は孤立する。😂😢😅",
-      "likeCount": 15,
+      "likeCount": 16,
       "publishedAt": "2026-10-18T04:52:41Z",
       "replyCount": 0,
       "replies": []
@@ -598,7 +579,7 @@
       "author": "@名無しのゴンべさん-h6p",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n0JGSIJqSSdLaWHdffgm_OZ0xJP08p6CIc2rCQMIeVAXY=s48-c-k-c0x00ffffff-no-rj",
       "text": "徳川幕府が江戸（東京）だからそして豊臣のときは大阪、織田は中京圏、江戸から京都までの東海道五十三次で宿場町が多くあり人の往来があるから、やっぱり雪が殆ど降らないし1年を通して人が行き来出来るのが影響してるんじゃないの？",
-      "likeCount": 17,
+      "likeCount": 18,
       "publishedAt": "2026-10-18T04:24:34Z",
       "replyCount": 0,
       "replies": []
@@ -648,7 +629,7 @@
       "author": "@ドライチ-y1s",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k3l4xsvBsZm7tghL-b_G8UGQoWdj5VoS5SgMq485HLnoT3GsQ2GwroWHVrMLImaaJWwZ2r=s48-c-k-c0x00ffffff-no-rj",
       "text": "福岡市北九州市新潟市",
-      "likeCount": 7,
+      "likeCount": 8,
       "publishedAt": "2026-10-18T02:14:33Z",
       "replyCount": 1,
       "replies": [
@@ -667,7 +648,7 @@
       "author": "@喜撰法師-z8k",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mafMUVEi-RWbHznDXv6_UPOpNfuE4ifU9xCY6xh5GQdUs=s48-c-k-c0x00ffffff-no-rj",
       "text": "大陸側の朝鮮民主主義人民共和国、ロシア共和国と日本国との貿易が盛んでないことも一因",
-      "likeCount": 22,
+      "likeCount": 23,
       "publishedAt": "2026-10-18T02:12:18Z",
       "replyCount": 0,
       "replies": []
@@ -732,7 +713,7 @@
       "author": "@雅神楽坂",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s48-c-k-c0x00ffffff-no-rj",
       "text": "北九州市や福岡市も日本海側を代表する都市のイメージが有りますね。",
-      "likeCount": 26,
+      "likeCount": 27,
       "publishedAt": "2026-10-17T14:00:49Z",
       "replyCount": 13,
       "replies": [
@@ -789,7 +770,7 @@
           "author": "@altpmw",
           "authorImage": "https://yt3.ggpht.com/iybmvNReSDBU6xn7zyeBOcFm5f7PqH4e3cuhxvecOR06HYUKhL0yuy-KMek1yQn0gqHvatywOQ=s48-c-k-c0x00ffffff-no-rj",
           "text": "福岡は日本海ではありませんよ。\n勉強し直しましょう",
-          "likeCount": 5,
+          "likeCount": 6,
           "publishedAt": "2026-10-21T23:56:28Z"
         },
         {
