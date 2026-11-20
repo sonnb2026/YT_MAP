@@ -1,9 +1,9 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-19T04:07:34.988Z",
+  "lastUpdated": "2026-11-20T03:58:49.333Z",
   "channelCount": 32,
-  "videoCount": 2700,
-  "quotaUnitsUsed": 3038,
+  "videoCount": 2704,
+  "quotaUnitsUsed": 2726,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -20,6 +20,10 @@
     {
       "channel": "https://www.youtube.com/@Curiousmindofficial-yt/videos",
       "error": "Channel not found for \"https://www.youtube.com/@Curiousmindofficial-yt/videos\""
+    },
+    {
+      "channel": "https://www.youtube.com/@GeograhpyMadeEasy",
+      "error": "Channel not found for \"https://www.youtube.com/@GeograhpyMadeEasy\""
     }
   ],
   "replyErrors": []
