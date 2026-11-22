@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxsDhJiIWNSApgVJ0F4AaABAg",
+      "author": "@DAINARELYSPEREZ",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_md5VUxzH5yjyJv_IEGemehUPXnmQvty_gdK0OWc6XAOS-XVJ0B1M0OaXt1Bsp6kPB0PA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Tan bella y la destruyeron",
+      "likeCount": 0,
+      "publishedAt": "2026-11-21T20:54:40Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxBylqrAEvhU1JT5e54AaABAg",
       "author": "@jaimealvarez5094",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nfXz2Zz3YFqxbdm55h97rDb_GiU2xUCrUWuhZaH7Q=s48-c-k-c0x00ffffff-no-rj",
       "text": "Hermoso nuestro archipiélago  Cubano y su gente,su situación geográfica única,bendiciones",
       "likeCount": 0,
       "publishedAt": "2026-11-21T00:54:01Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxBylqrAEvhU1JT5e54AaABAg.AdSVAfqwq6kAdU1Oe1DhWi",
+          "author": "@planetaldescubierto",
+          "authorImage": "https://yt3.ggpht.com/8Zq3zaxCSeMmYUn_2V-nnNT8dQJlWOSTuFaFEDG9N5K-k-xFU7xi7HP25QXJh3Jr6D6ef7gcu3o=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Totalmente de acuerdo! Cuba es verdaderamente especial, y su gente y geografía la hacen única.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-21T15:12:16Z"
+        }
+      ]
     },
     {
       "id": "Ugz7NR8HpCwqiEI_lhF4AaABAg",
@@ -217,8 +236,16 @@
       "text": "Yo vivo en Cuba 🇨🇺 y a pesar que la situación está difícil por el bloqueo yo estoy orgulloso de aver nacido aqui",
       "likeCount": 0,
       "publishedAt": "2026-11-18T14:00:09Z",
-      "replyCount": 1,
+      "replyCount": 2,
       "replies": [
+        {
+          "id": "Ugx_edlGfCqy2xAaqV94AaABAg.AdMAktAT3knAdV2M-l1HbJ",
+          "author": "@jesusortega4353",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m1jJPZyDgXFBTXpgKdKBIvUmIAQClJGOraYpHQ5fa5wmg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "El bloqueo lo tiene la tiranía comunista..",
+          "likeCount": 0,
+          "publishedAt": "2026-11-22T00:39:53Z"
+        },
         {
           "id": "Ugx_edlGfCqy2xAaqV94AaABAg.AdMAktAT3knAdMFLHQ266f",
           "author": "@planetaldescubierto",
@@ -1901,25 +1928,6 @@
           "text": "¡Muchas gracias por la aclaración y por tan hermosa frase de José Martí, tienes toda la razón!",
           "likeCount": 0,
           "publishedAt": "2026-11-14T15:46:58Z"
-        }
-      ]
-    },
-    {
-      "id": "UgzzEbV8MR_bVxD4oa94AaABAg",
-      "author": "@ivetteramirez4245",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nTCRmCpUsgUhrwCn3NSgcQUa2ZB0rACom422HYHb0rOVNHIMzfwDs398hR5zZDBa50vg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Cuba es una hermosa isla qué la tienen en oscuridad...Dios la bendiga siempre 🙏.",
-      "likeCount": 1,
-      "publishedAt": "2026-11-14T07:50:25Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgzzEbV8MR_bVxD4oa94AaABAg.AdBDGNYz4wLAdC3hnsQNYc",
-          "author": "@planetaldescubierto",
-          "authorImage": "https://yt3.ggpht.com/8Zq3zaxCSeMmYUn_2V-nnNT8dQJlWOSTuFaFEDG9N5K-k-xFU7xi7HP25QXJh3Jr6D6ef7gcu3o=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Coincido contigo en que la belleza de la isla es innegable y nos unimos a ese deseo de bendiciones para su gente. 🇨🇺💙",
-          "likeCount": 0,
-          "publishedAt": "2026-11-14T15:46:10Z"
         }
       ]
     }

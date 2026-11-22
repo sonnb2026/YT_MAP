@@ -1,5 +1,35 @@
 {
   "videoId": "k3vuer0fq78",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgzC7IMsIReWdV7NQAZ4AaABAg",
+      "author": "@alejandroadrian2003",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nQHa4SLnT9D1rsddzwHZwgjz7RkvrFmKzXwIQPHHKt3pI=s48-c-k-c0x00ffffff-no-rj",
+      "text": "La paz no es capital",
+      "likeCount": 1,
+      "publishedAt": "2026-11-21T20:21:52Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwKFfHAKOHIQpPUh8p4AaABAg",
+      "author": "@JoseCoolHolguin",
+      "authorImage": "https://yt3.ggpht.com/RjTcRJ8UICjtCd9c40o2PwpcmSzluMOG-MYOgViDLKWrowMfguO6TqVfDjE1vtSiFU0cMhauPw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "👍💯🇪🇨",
+      "likeCount": 1,
+      "publishedAt": "2026-11-21T17:44:58Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwKFfHAKOHIQpPUh8p4AaABAg.AdUIs5szLBCAdUU8TS_jli",
+          "author": "@MundoSecretoGeo",
+          "authorImage": "https://yt3.ggpht.com/QyedY9V4VIP8ckmjleHDKTRt_uSPUT33GeEz1e5QKiqSE691BV_vLU0sFQK23Yx9i-HkG0DxEtU=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por el apoyo! 😊🇪🇨",
+          "likeCount": 0,
+          "publishedAt": "2026-11-21T19:23:28Z"
+        }
+      ]
+    }
+  ]
 }
