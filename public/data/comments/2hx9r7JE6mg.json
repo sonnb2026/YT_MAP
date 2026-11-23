@@ -3,6 +3,25 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwpT470q5mdwufZf2R4AaABAg",
+      "author": "@MarginFlowTV",
+      "authorImage": "https://yt3.ggpht.com/CtYbPGFggqXGzJTBuXr7XVB4jh_wDrbtCFW3dD7-3HHjxXAWxSdbMHtAVtMK7Hur7gQ8tAIsUS4=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The cost contrast is what makes this a business race, not just a tech race: a Waymo Jaguar at $150,000 to $200,000 a unit versus the new Zeekr vans at roughly $32,000, while Tesla is running only about 140 robotaxis in Austin. Waymo spent a decade buying safety with expensive hardware, and now the hardware is finally getting cheap enough to scale. Do you think Tesla's bet — that 4 to 5 million cars already on the road are a fleet waiting for software — wins if level 5 stays out of reach for a few more years?",
+      "likeCount": 0,
+      "publishedAt": "2026-11-22T11:42:33Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwpT470q5mdwufZf2R4AaABAg.AdWEBVfLscjAdWastBwuuQ",
+          "author": "@MicahtheDrumCorpsPseudoboomer",
+          "authorImage": "https://yt3.ggpht.com/AZUDvN_oLCAeaPsqbij3F-enijKGgzKMuEeb14UcMejl_11ITpXWPgpGDPWt7OLflX1PYGSr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Whoever wins, we lose.  I don't want driverless cars, I want driverless metros like the Docklands Light Railway.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-22T15:09:35Z"
+        }
+      ]
+    },
+    {
       "id": "Ugw2-0gQmUY6BmZWFO54AaABAg",
       "author": "@jeffreywhittle6161",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ltG5Vixvi3d0Yh00mrIlUB2on93_zWY8hkMojmBpX9mvBiNJjt4vNgL5Rn8XCPf9bnFg=s48-c-k-c0x00ffffff-no-rj",
@@ -1363,16 +1382,6 @@
       "text": "The Tesla approach is far more scalable. It is also far more a bitter lesson pilled. Waymo has no chance.",
       "likeCount": 0,
       "publishedAt": "2026-11-03T16:07:10Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwZXnr3pE3N7QlV0hV4AaABAg",
-      "author": "@Magnatefall",
-      "authorImage": "https://yt3.ggpht.com/4giLbuzfTZ_iQjOdb3rsBDTTGDm37m_z1khRkQCEt_9TDfZXwclsakr6GwFJf88V7ECHSH2FJw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The contrast between the two approaches is the core of this video, with Waymo building a tightly mapped system in a few cities and Tesla betting on a general system that can work anywhere. The safety comparison is hard to settle fairly, because the two fleets drive in very different conditions and at very different scales. The most useful question is not which company is ahead today, but which approach can scale without losing the safety record that got it there.",
-      "likeCount": 0,
-      "publishedAt": "2026-11-03T15:45:15Z",
       "replyCount": 0,
       "replies": []
     }
