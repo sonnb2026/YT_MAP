@@ -1,9 +1,9 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-23T03:42:31.844Z",
+  "lastUpdated": "2026-11-24T06:53:57.169Z",
   "channelCount": 32,
-  "videoCount": 2713,
-  "quotaUnitsUsed": 3041,
+  "videoCount": 2715,
+  "quotaUnitsUsed": 2649,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -17,14 +17,6 @@
   "liveCount": 0,
   "allKeysExhausted": false,
   "errors": [
-    {
-      "videoId": "sxBG1cdWtO4",
-      "error": "commentThreads failed: processingFailure"
-    },
-    {
-      "videoId": "YObpi5FxgFI",
-      "error": "commentThreads failed: processingFailure"
-    },
     {
       "channel": "https://www.youtube.com/@Curiousmindofficial-yt/videos",
       "error": "Channel not found for \"https://www.youtube.com/@Curiousmindofficial-yt/videos\""

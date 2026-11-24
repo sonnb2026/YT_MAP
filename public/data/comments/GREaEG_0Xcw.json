@@ -3,6 +3,16 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxlygDD_kiz-fh5iGt4AaABAg",
+      "author": "@cyber-security4all",
+      "authorImage": "https://yt3.ggpht.com/_4LHNCngqsERGA5yGTRawKgCE3BLRkzpFKYdJKi9j1xMlyusLSex2iSPEF3-n_Fodc60jEKVOA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Spot-on technical analysis on Zero Trust Architecture, Half as Interesting! The underlying systems engineering: Zero Trust moves away from static perimeter firewalls toward cryptographic per-request micro-segmentation, requiring mutual TLS (mTLS), short-lived ephemeral certificates, and continuous device posture attestation before any packet touches internal microservices. Which observability tool or command do you reach for first when tracing this under real-time load? Absolute gold content! 🚀🐧",
+      "likeCount": 0,
+      "publishedAt": "2026-11-23T09:54:35Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugw2kqCzx-NCj1lkNap4AaABAg",
       "author": "@RiseRuintv",
       "authorImage": "https://yt3.ggpht.com/qareNr2Ho88v89xM6XVu5g8Bcwx67BMXml5wqxx74ww8SrFFc3T3FyM5Pg82PUlzXlGgbE0V9w=s48-c-k-c0x00ffffff-no-rj",
@@ -279,16 +289,6 @@
       "text": "Every other sentence? Isn't a question? Please learn to speak?",
       "likeCount": 1,
       "publishedAt": "2026-08-27T01:57:23Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzGaTGvDGR8hWoAbsx4AaABAg",
-      "author": "@emersonlaffey4412",
-      "authorImage": "https://yt3.ggpht.com/lNos9th7iaU2nVaH5awMRI7_E56zcb--k95QEBquJ96rk1jFhL_pHwRbV7bkvKe9eYW79YndwWI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "One US company has broken the hammer lock of dealerships. And it’s a beautiful thing. It’s called Tesla. Look into it.",
-      "likeCount": 0,
-      "publishedAt": "2026-08-25T23:52:56Z",
       "replyCount": 0,
       "replies": []
     }

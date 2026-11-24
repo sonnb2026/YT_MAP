@@ -1,9 +1,9 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-11-23T03:39:08.044Z",
+  "lastUpdated": "2026-11-24T06:51:40.969Z",
   "channelCount": 35,
-  "videoCount": 2632,
-  "quotaUnitsUsed": 1866,
+  "videoCount": 2637,
+  "quotaUnitsUsed": 1591,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -20,14 +20,6 @@
     {
       "channel": "https://www.youtube.com/watch?v=cmPMtpISL1U",
       "error": "Channel not found for \"https://www.youtube.com/watch?v=cmPMtpISL1U\""
-    },
-    {
-      "videoId": "BRaTeeShCIs",
-      "error": "commentThreads failed: processingFailure"
-    },
-    {
-      "videoId": "bulOj3usUsc",
-      "error": "commentThreads failed: processingFailure"
     }
   ],
   "replyErrors": []
