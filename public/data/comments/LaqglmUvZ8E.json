@@ -691,8 +691,17 @@
       "text": "One tsunami away from oblivion.",
       "likeCount": 5,
       "publishedAt": "2026-09-06T14:29:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyFnZsaiKdWDRWUKh54AaABAg.AaQG66KYJE_Adb-56lAy_q",
+          "author": "@AthenianHeretic",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n2udBzeYBteVO94AOvACDKqyHN4sBTqV2YenVzO3Y2Ic5h7sd9c1UhQi-g7V9kvb_L3A=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Very true. I live here.",
+          "likeCount": 0,
+          "publishedAt": "2026-11-24T17:26:03Z"
+        }
+      ]
     },
     {
       "id": "Ugyda_Ol8XC8zR-GK854AaABAg",

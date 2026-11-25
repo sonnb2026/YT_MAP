@@ -19,8 +19,17 @@
       "text": "Gente, denuncien estos videos truchos!",
       "likeCount": 0,
       "publishedAt": "2026-11-23T16:57:44Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyMz2cgvreoy_j6Fup4AaABAg.AdZN2wOplFMAdbI6JCILYt",
+          "author": "@guiilermotabieres4147",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mLeB9mgIegeekJMo7t5J14eq7WOFQ0b-U7NBr0CpCImkN2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Trucho por IA, o por el contenido?",
+          "likeCount": 0,
+          "publishedAt": "2026-11-24T20:12:14Z"
+        }
+      ]
     }
   ]
 }
