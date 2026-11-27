@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugy_99tV4GkgmiCpQGV4AaABAg",
+      "author": "@junnitube",
+      "authorImage": "https://yt3.ggpht.com/_gLhZBNy_76VTzwjVwKK2kX6FIzPdYinKChYb_27BvZc12hUJzHKQAyw27iad8XaJ653oRDMvg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "USA",
+      "likeCount": 0,
+      "publishedAt": "2026-11-26T15:49:02Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgzstdmXiu_3SZowckN4AaABAg",
       "author": "@MimKabita",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lCcLaQxWcvI2EGO1Yx8JghVogwuIvweQtKO2WljVQO8Z9U-9WIqXep9b4I_4RwnbLfMQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Vatican?",
       "likeCount": 0,
       "publishedAt": "2026-11-26T04:13:43Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzstdmXiu_3SZowckN4AaABAg.Adej-dTPXdVAdgwZU48PRT",
+          "author": "@Uhhhhwhat-z6x",
+          "authorImage": "https://yt3.ggpht.com/dIekBMqCRAwCJeargJu25yqYY6ZKAgy_3fqlkWvWI8DY5b6HXlW5zgHklNO28JeMCS8div0d=s48-c-k-c0x00ffffff-no-rj",
+          "text": "?",
+          "likeCount": 0,
+          "publishedAt": "2026-11-27T00:50:41Z"
+        }
+      ]
     },
     {
       "id": "UgzoJ6x7g56L-FMGY1R4AaABAg",
@@ -67,7 +86,7 @@
       "author": "@LanatheWhiteSorceress",
       "authorImage": "https://yt3.ggpht.com/q8A90q5--43tkT1sExcV8YJ4zJumi0G1GI9ywjjk1nLGOOHKWEbfNufDKjiSbnZF0X3AVTpcFvU=s48-c-k-c0x00ffffff-no-rj",
       "text": "What about Russia? Practically the entire country east of the Ural Mountain Range is snowfields. And it's the largest country on Earth by land area.",
-      "likeCount": 1,
+      "likeCount": 2,
       "publishedAt": "2026-11-24T17:46:25Z",
       "replyCount": 0,
       "replies": []
@@ -89,8 +108,17 @@
       "text": "Jesus Christ did",
       "likeCount": 2,
       "publishedAt": "2026-11-23T20:48:23Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz-NHUyk1cAGY0nG4R4AaABAg.AdZmSCaPbpYAdgwYkkaU14",
+          "author": "@Uhhhhwhat-z6x",
+          "authorImage": "https://yt3.ggpht.com/dIekBMqCRAwCJeargJu25yqYY6ZKAgy_3fqlkWvWI8DY5b6HXlW5zgHklNO28JeMCS8div0d=s48-c-k-c0x00ffffff-no-rj",
+          "text": "?",
+          "likeCount": 0,
+          "publishedAt": "2026-11-27T00:50:35Z"
+        }
+      ]
     }
   ]
 }
