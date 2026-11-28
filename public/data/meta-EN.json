@@ -1,9 +1,9 @@
 {
   "list": "EN",
-  "lastUpdated": "2026-11-27T04:55:57.466Z",
+  "lastUpdated": "2026-11-28T04:41:27.907Z",
   "channelCount": 32,
-  "videoCount": 2727,
-  "quotaUnitsUsed": 2618,
+  "videoCount": 2730,
+  "quotaUnitsUsed": 2928,
   "apiKeysConfigured": 2,
   "vph": {
     "minIntervalHours": 6,
@@ -24,6 +24,10 @@
     {
       "channel": "https://www.youtube.com/@GeograhpyMadeEasy",
       "error": "Channel not found for \"https://www.youtube.com/@GeograhpyMadeEasy\""
+    },
+    {
+      "videoId": "J-ugfH_pg1s",
+      "error": "commentThreads failed: processingFailure"
     }
   ],
   "replyErrors": []
